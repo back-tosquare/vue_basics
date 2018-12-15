@@ -1,2 +1,2 @@
 # vue_basics
-A Simple Repository with Vue Basics
+A Simple Repository illustrating Data and Methods
