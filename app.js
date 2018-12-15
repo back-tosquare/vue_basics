@@ -1,14 +1,14 @@
 new Vue({
   el:'#vue-app',
   data:{
-    name:'Neel',
-    department:'UI',
-    website:'https://www.google.com',
-    htmlAttribute:'<input type="text"></input>'
+    age : 25
   },
   methods:{
-    greetUser:function (value1) {
-      return 'Good ' + value1 + this.name;
+    add:function(){
+      this.age++;
+    },
+    subtract:function(){
+      this.age--;
     }
   }
 })

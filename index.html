@@ -9,10 +9,10 @@
   <body>
 
     <div id="vue-app">
-      <p> Data Binding </p>
-      <a v-bind:href="website"> Website : {{ website }} </a>
-      <input type="text" name="" v-bind:value="name">
-      <p v-html="htmlAttribute"></p>
+      <h1> Events </h1>
+      <button type="button" name="button" v-on:click="add()"> Add Age</button>
+      <button type="button" name="button" v-on:click="subtract()"> Subtract Age</button>
+      <p> Age is {{ age }} </p>
     </div>
 
   <script src="app.js"></script>
