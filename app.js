@@ -5,8 +5,8 @@ new Vue({
     department:'UI'
   },
   methods:{
-    greetUser:function () {
-      return 'Good Morning';
+    greetUser:function (value1) {
+      return 'Good ' + value1 + this.name;
     }
   }
 })
