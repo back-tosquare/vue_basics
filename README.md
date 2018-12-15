@@ -2,3 +2,4 @@
 A Simple Repository illustrating Data Binding
 
 1. v-bind: -->  {{ }} Is not required while using data properties
+2. <p v-html=""></p>
