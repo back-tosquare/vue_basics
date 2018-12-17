@@ -10,19 +10,15 @@
 
     <div id="vue-app">
 
-      <h1> Keyboard Event Modifiers </h1>
+      <h1> Computed Properties </h1>
 
-      <div>
-      <label> Name : </label>
-      <input type="text" name="" value="" v-model="name">
-      <span> {{name}} </span>
-      </div>
+      <button type="button" name="button" v-on:click="incA()">Add to A</button>
+      <button type="button" name="button" v-on:click="incB()">Add to B</button>
 
-      <div>
-      <label> Age : </label>
-      <input type="text" name="" value="" v-model="age">
-      <span> {{age}} </span>
-      </div>
+      <p> Value of A is : {{ a }} </p>
+      <p> Value of B is : {{ b }} </p>
+      <p> Age + A : {{ addToA }} </p>
+      <p> Age + B : {{ addToB }} </p>
 
     </div>
 
