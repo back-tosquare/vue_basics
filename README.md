@@ -1,18 +1,5 @@
 # vue_basics
-A Simple Repository illustrating Computed Properties
+A Simple Repository illustrating Dynamic CSS Classes
 
-1. Use Computed instead of methods
-2. While calling the Method don't use Parenthesis
-
-Eg : computed :{
-
-  method_A:function(){
-
-  },
-
-  method_B:function(){
-
-  }
-}
-
-The Value is = {{ method_A }}
+1. Use Computed Methods.
+2. Eg : v-bind:class={class_abc:true}

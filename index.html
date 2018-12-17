@@ -10,15 +10,19 @@
 
     <div id="vue-app">
 
-      <h1> Computed Properties </h1>
+      <h1> Dynamic CSS Classes </h1>
 
-      <button type="button" name="button" v-on:click="incA()">Add to A</button>
-      <button type="button" name="button" v-on:click="incB()">Add to B</button>
+      <div>
+        <p>Example 1</p>
+        <button type="button" name="button" v-on:click="toggleAvailable()">Toggle Available</button>
+        <div v-bind:class="compClasses">Test1</div>
+      </div>
 
-      <p> Value of A is : {{ a }} </p>
-      <p> Value of B is : {{ b }} </p>
-      <p> Age + A : {{ addToA }} </p>
-      <p> Age + B : {{ addToB }} </p>
+      <div>
+        <p>Example 2</p>
+        <button type="button" name="button" v-on:click="toggleNearby()">Toggle Nearby</button>
+        <div v-bind:class="compClasses">Test2</div>
+      </div>
 
     </div>
 

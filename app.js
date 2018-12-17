@@ -1,33 +1,25 @@
 new Vue({
   el:'#vue-app',
   data:{
-    age:20,
-    a:0,
-    b:0
+    available:true,
+    nearby:true
   },
   methods:{
 
-    incA:function() {
-      this.a++;
+    toggleAvailable:function() {
+      this.available = !this.available;
     },
 
-    incB:function() {
-      this.b++;
+    toggleNearby:function() {
+      this.nearby = !this.nearby;
     }
-    
+
   },
   computed:{
 
-    addToA:function() {
-      console.log('Add to A is Running')
-      return this.age + this.a;
-    },
-
-    addToB:function() {
-      console.log('Add to B is Running')
-      return this.age + this.b;
+    compClasses:function() {
+      return {available:this.available,nearby:this.nearby}
     }
-
   }
 
 })
