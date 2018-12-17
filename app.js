@@ -1,15 +1,10 @@
 new Vue({
   el:'#vue-app',
   data:{
-
+    name:"",
+    age:""
   },
   methods:{
-    checkName:function () {
-      console.log('Entered Name');
-    },
-    checkAge:function () {
-      console.log('Entered Age');
-    },
 
   }
 })

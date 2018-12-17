@@ -12,10 +12,17 @@
 
       <h1> Keyboard Event Modifiers </h1>
 
+      <div>
       <label> Name : </label>
-      <input type="text" name="" value="" v-on:focusout="checkName()">
+      <input type="text" name="" value="" v-model="name">
+      <span> {{name}} </span>
+      </div>
+
+      <div>
       <label> Age : </label>
-      <input type="text" name="" value="" v-on:keyup.enter="checkAge()">
+      <input type="text" name="" value="" v-model="age">
+      <span> {{age}} </span>
+      </div>
 
     </div>
 

@@ -1,4 +1,4 @@
 # vue_basics
-A Simple Repository illustrating Keyboard Events and Modifiers
+A Simple Repository illustrating 2-Way Data Binding
 
-1. v-on:<event_name>.event_modifier="<method_name">
+1. v-model
