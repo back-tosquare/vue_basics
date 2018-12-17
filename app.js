@@ -1,13 +1,15 @@
 new Vue({
   el:'#vue-app',
   data:{
-    age : 25,
-    x:0,
-    y:0
+
   },
   methods:{
-    click:function () {
-      console.log('Click On');
-    }
+    checkName:function () {
+      console.log('Entered Name');
+    },
+    checkAge:function () {
+      console.log('Entered Age');
+    },
+
   }
 })

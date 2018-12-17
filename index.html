@@ -10,8 +10,12 @@
 
     <div id="vue-app">
 
-      <h1> Event Modifiers </h1>
-      <p><a v-on:click.prevent="click()" href="https://www.google.com"> Website </a></p>
+      <h1> Kyboard Event Modifiers </h1>
+
+      <label> Name : </label>
+      <input type="text" name="" value="" v-on:focusout="checkName()">
+      <label> Age : </label>
+      <input type="text" name="" value="" v-on:keyup.enter="checkAge()">
 
     </div>
 
